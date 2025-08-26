@@ -17,6 +17,7 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-6">
             <Link to="/" className="hover:text-gray-200">Home</Link>
             <Link to="/todopage" className="hover:text-gray-200">Todo-App</Link>
+            <Link to="/todopage2" className="hover:text-gray-200">Todo2</Link>
           
           </div>
 
@@ -42,7 +43,7 @@ export default function Navbar() {
         <div className="md:hidden px-4 pb-3 space-y-2 bg-blue-700">
           <Link to="/" className="block hover:text-gray-200">Home</Link>
           <Link to="/todopage" className="block hover:text-gray-200">Todo-App</Link>
-         
+         <Link to="/todopage2" className="hover:text-gray-200">Todo2</Link>
         </div>
       )}
     </nav>
