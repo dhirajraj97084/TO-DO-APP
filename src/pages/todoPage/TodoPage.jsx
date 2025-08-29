@@ -35,7 +35,7 @@ export default function TodoPage() {
     <div className="min-h-screen bg-gray-100">
       <div className="container mx-auto px-4">
         <h1 className="flex justify-center items-center py-6 text-3xl font-bold">
-          TODO APP
+          TODO APP    
         </h1>
 
         <div className="mx-auto w-full max-w-xl bg-white rounded-xl shadow p-4">

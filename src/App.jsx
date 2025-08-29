@@ -6,12 +6,13 @@ import Todo2 from './pages/todo2/todo2';
 
 
 function App() {
+ 
   return (
     <div>     
       <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/todopage" element={<TodoPage />} /> 
+        <Route path="/todopage" element={<TodoPage  />}  /> 
         <Route path="/todopage2" element={<Todo2 />} />       
       </Routes>
       </Router>
